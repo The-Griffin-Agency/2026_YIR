@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#a8f0c9" />
+  <text transform="translate(124 322)" fill="#172b38" font-family="Helvetica-Bold, Helvetica" font-size="26" font-weight="700" isolation="isolate"><tspan x="0" y="0" letter-spacing=".115em">MODERNIZED GENERAL LEDGER</tspan><tspan x="344.066" y="0" letter-spacing=".097em">L</tspan><tspan x="362.481" y="0" xml:space="preserve" letter-spacing=".115em"> LEDGER</tspan></text>
+  <text transform="translate(120 429)" fill="#172b38" font-family="Helvetica-Bold, Helvetica" font-size="69" font-weight="700" isolation="isolate"><tspan x="0" y="0">Three workflows.</tspan></text>
+  <text transform="translate(120 525)" fill="#172b38" font-family="Helvetica-Bold, Helvetica" font-size="69" font-weight="700" isolation="isolate"><tspan x="0" y="0">One set of books.</tspan></text>
+  <circle cx="1440" cy="540" r="368" fill="#86ddb8" id="ledger-halo" />
+  <path d="M1019.74,386.311h159.009c151.781,0,144.554,84.667,282.912,84.667" fill="none" stroke="#fff8ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="48.529" pathLength="1" class="stream stream-0" />
+  <path d="M1019.74,524.669h159.009c151.781,0,144.554,3.097,282.912,3.097" fill="none" stroke="#d4c7ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="48.529" pathLength="1" class="stream stream-1" />
+  <path d="M1019.74,661.995h159.009c151.781,0,144.554-77.44,282.912-77.44" fill="none" stroke="#ffc6a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="48.529" pathLength="1" class="stream stream-2" />
+  <rect x="1466.823" y="348.107" width="260.196" height="351.058" rx="27.878" ry="27.878" fill="#266e6b" class="ledger-cover" />
+  <rect x="1485.409" y="348.107" width="17.553" height="351.058" rx="8.26" ry="8.26" fill="#00d9a1" class="ledger-cover" />
+  <g id="ledger-rows">
+    <rect x="1529.807" y="420.384" width="143.521" height="15.488" rx="7.228" ry="7.228" fill="#fff8ea" class="row row-0" />
+    <rect x="1529.807" y="467.88" width="115.643" height="15.488" rx="7.228" ry="7.228" fill="#d4c7ff" class="row row-1" />
+    <rect x="1529.807" y="515.376" width="143.521" height="15.488" rx="7.228" ry="7.228" fill="#ffc6a5" class="row row-2" />
+    <rect x="1529.807" y="562.872" width="99.122" height="15.488" rx="7.228" ry="7.228" fill="#a8f0c9" class="row row-3" />
+    <rect x="1529.807" y="610.368" width="129.066" height="15.488" rx="7.228" ry="7.228" fill="#a8f0c9" class="row row-4" />
+  </g>
+  <g id="stream-labels">
+    <path d="M971.982,351.225h253.683c24.879,0,45.047,20.168,45.047,45.046h0c0,24.879-20.168,45.047-45.047,45.047h-253.683c-24.878,0-45.046-20.168-45.046-45.047h0C926.936,371.393,947.104,351.225,971.982,351.225Z" fill="#fff8ea" class="label label-0" />
+    <text transform="translate(962.5 410.498)" fill="#142b34" font-family="Helvetica-Bold, Helvetica" font-size="40.305" font-weight="700" isolation="isolate" class="label label-0"><tspan x="0" y="0">Billing</tspan></text>
+    <path d="M971.982,474.51h253.683c24.879,0,45.047,20.168,45.047,45.046h0c0,24.879-20.168,45.047-45.047,45.047h-253.683c-24.878,0-45.046-20.168-45.046-45.047h0C926.936,494.678,947.104,474.51,971.982,474.51Z" fill="#d4c7ff" class="label label-1" />
+    <text transform="translate(962.5 533.783)" fill="#142b34" font-family="Helvetica-Bold, Helvetica" font-size="40.305" font-weight="700" isolation="isolate" class="label label-1"><tspan x="0" y="0">Payments</tspan></text>
+    <path d="M971.982,597.795h253.683c24.879,0,45.047,20.168,45.047,45.047h0c0,24.878-20.168,45.046-45.047,45.046h-253.683c-24.878,0-45.046-20.168-45.046-45.046h0C926.936,617.963,947.104,597.795,971.982,597.795Z" fill="#ffc6a5" class="label label-2" />
+    <text transform="translate(962.5 657.068)" fill="#142b34" font-family="Helvetica-Bold, Helvetica" font-size="40.305" font-weight="700" isolation="isolate" class="label label-2"><tspan x="0" y="0">Accounting</tspan></text>
+  </g>
+  <g fill="#172b38" font-family="Helvetica, Arial, sans-serif" font-size="32"><text x="124" y="618">CARET connects billing, payments, and accounting</text><text x="124" y="664">in one place, with a clear view of your finances.</text></g><title>Modernized General Ledger | Three workflows. One set of books.</title><style>
+.stream { animation: trace 7s ease-in-out 1 both; }
+.label { animation: label-in 7s ease-out 1 both; }
+.ledger-cover, #ledger-halo { animation: book-in 7s ease-out 1 both; }
+.row { animation: row-in 7s ease-out 1 both; }
+.stream-1, .label-1, .row-1 { animation-delay:.22s; }
+.stream-2, .label-2, .row-2 { animation-delay:.44s; }
+.row-3 { animation-delay:.58s; }
+.row-4 { animation-delay:.72s; }
+.stream, .label, .row { animation-fill-mode:both; }
+@keyframes label-in { 0% {opacity:0} 8%,83% {opacity:1} 90%,100% {opacity:0} }
+@keyframes trace { 0%,14% {stroke-dasharray:1 1;stroke-dashoffset:1;opacity:0} 15% {opacity:1} 39%,83% {stroke-dasharray:1 1;stroke-dashoffset:0;opacity:1} 90%,100% {stroke-dashoffset:0;opacity:0} }
+@keyframes book-in { 0%,34%,100% {opacity:0} 44%,92% {opacity:1} }
+@keyframes row-in { 0%,45%,100% {opacity:0;transform:translateX(-8px)} 53%,82% {opacity:1;transform:translateX(0)} 89% {opacity:0} }
+@media (prefers-reduced-motion: reduce) { svg * { animation:none !important; } }
+</style></svg>

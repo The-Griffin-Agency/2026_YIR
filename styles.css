@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #172b38; background: #faf9f5; font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 1200px; margin: auto; padding: clamp(24px, 5vw, 72px); }
+header { margin-bottom: 30px; }
+header p { margin: 0 0 18px; }
+.eyebrow { font-size: .8rem; font-weight: 750; letter-spacing: .15em; }
+h1 { margin: 0; font-size: clamp(2.8rem, 8vw, 6rem); letter-spacing: -.055em; line-height: 1; }
+header h1 + p { margin-top: 12px; }
+button { border: 1px solid #172b38; border-radius: 7px; padding: 8px 14px; background: #172b38; color: white; font: inherit; cursor: pointer; }
+.quiet, article button { color: #172b38; background: transparent; }
+button:focus-visible { outline: 3px solid #4b36a7; outline-offset: 3px; }
+#status { min-height: 1.5em; margin-top: 8px; }
+.studies { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); }
+article { overflow: hidden; background: #fff; border: 1px solid #deded6; border-radius: 14px; }
+article img { display: block; width: 100%; aspect-ratio: 16/9; }
+article div { display: flex; padding: 12px; gap: 8px; align-items: center; justify-content: space-between; }
+h2 { margin: 0; font-size: 1rem; }
